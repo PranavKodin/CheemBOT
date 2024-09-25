@@ -2,7 +2,7 @@ import discord
 import difflib
 from discord.ext import commands
 import config
-from replies import replies
+from replies import replies   
 
 intents= discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents) 
