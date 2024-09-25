@@ -22,7 +22,7 @@ async def on_message(msg: discord.Message):
     
     if closest_match:
         ask = closest_match[0]
-        for keyword, response in replies.items():
+        for keyword, response in replies.items(): 
             if ask.lower() == keyword:
                 if response.lower().endswith(image_extensions):
                     await msg.channel.send(response)
