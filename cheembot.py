@@ -13,7 +13,7 @@ async def on_ready():
     await bot.tree.sync()
 image_extensions = ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.tiff')
 @bot.event
-async def on_message(msg: discord.Message):
+async def on_message(msg: discord.Message): #jvjhvhjvjh
     if msg.author == bot.user:
         return
     content = msg.content
